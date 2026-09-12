@@ -54,7 +54,7 @@ const TechnologyCard = ({ technology, stack, setStack }: ITechnologyCardProps) =
 
 
       <div className="flex flex-wrap items-center gap-2 text-xs mt-4">
-        <span className="badge badge-outline rounded-full">{category}</span>
+        <span className="border border-base-300 bg-transparent text-base-content/80 text-xs px-3 py-1 rounded-full">{category}</span>
         <span className="text-base-content/50">{difficulty}</span>
         <span className="ml-auto flex items-center gap-1 font-semibold">
           <FaStar className="text-warning" />
