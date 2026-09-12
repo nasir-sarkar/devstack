@@ -11,7 +11,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/technologies.json")
+    fetch("technologies.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data, "data from json");
